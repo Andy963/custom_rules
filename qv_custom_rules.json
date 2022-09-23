@@ -1,0 +1,21 @@
+{
+    "author": "andy963",
+    "description": "qv_custom_rules",
+    "domainMatcher": "mph",
+    "domainStrategy": "AsIs",
+    "domains": {
+        "direct": [
+            "wuhan.gov.cn",
+            "bilibili.com",
+            "paddlespeech.bj.bcebos.com",
+            "mirrors.aliyun.com",
+            "mas.10086.cn",
+            "endo-dev.etupai.com",
+            "wxapp.webportal.top",
+            "2463377.s80i.faiusr.com"
+        ]
+    },
+    "ips": {
+    },
+    "name": "qv_rules"
+}
