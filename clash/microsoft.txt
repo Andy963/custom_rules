@@ -1,4 +1,4 @@
-payload:'
+payload:
  - '+.googleapis.com'
  - '+.microsoft.com'
  - '+.aadrm.com'
