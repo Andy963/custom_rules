@@ -1,0 +1,16 @@
+#TITLE=AI
+#VER=20230509
+#URL=https://github.com/Andy963/custom_rules/blob/main/qx/ai.list
+
+#DOMAIN-SET,https://github.com/Andy963/custom_rules/qx/blob/main/qx/ai.list,proxy
+
+DOMAIN-SUFFIX,cdn.auth0.com,AI
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,pay.openai.com,AI
+DOMAIN-SUFFIX,chat.openai.com,AI
+DOMAIN-SUFFIX,challenges.cloudflare.com,AI
+DOMAIN-SUFFIX,auth0.openai.com,AI
+DOMAIN-SUFFIX,platform.openai.com,AI
+DOMAIN-SUFFIX,ai.com,AI
+DOMAIN-SUFFIX,invoice.stripe.com,AI
+DOMAIN-SUFFIX,stripe.com,AI
