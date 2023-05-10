@@ -1,19 +1,19 @@
-#TITLE=ai
-#VER=20230509
-#URL=https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt
-
-
-#DOMAIN-SET,https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt,proxy
-
-payload:
-  # > PayPal
-  # - USER-AGENT,PayPal*
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,pay.openai.com
-  - DOMAIN-SUFFIX,chat.openai.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,auth0.openai.com
-  - DOMAIN-SUFFIX,platform.openai.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,invoice.stripe.com
-  - DOMAIN-SUFFIX,stripe.com
+#TITLE=ai'
+#VER=20230509'
+#URL=https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt'
+'
+'
+#DOMAIN-SET,https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt,proxy'
+'
+payload:'
+  # > PayPal'
+  # - USER-AGENT,PayPal*'
+  - '+.openai.com'
+  - '+.pay.openai.com'
+  - '+.chat.openai.com'
+  - '+.challenges.cloudflare.com'
+  - '+.auth0.openai.com'
+  - '+.platform.openai.com'
+  - '+.ai.com'
+  - '+.invoice.stripe.com'
+  - '+.stripe.com'
