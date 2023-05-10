@@ -1,0 +1,7 @@
+#TITLE=duolingo
+#VER=20230509
+#URL=https://github.com/Andy963/custom_rules/edit/main/domains.txt
+
+#DOMAIN-SET,https://github.com/Andy963/custom_rules/edit/main/duolingo.txt,proxy
+HOST-SUFFIX,duolingo.com,Duolingo
+HOST-SUFFIX,duolingo.cn,Duolingo
