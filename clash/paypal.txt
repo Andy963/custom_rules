@@ -1,7 +1,3 @@
-# NAME: PayPal'
-# REPO: #URL=https://github.com/Andy963/custom_rules/main/qx/paypal.txt'
-# UPDATED: 2023-05-10 '
-# TOTAL: 246'
 payload:'
   # > PayPal'
   # - USER-AGENT,PayPal*'
