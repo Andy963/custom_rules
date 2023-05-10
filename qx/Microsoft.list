@@ -7,8 +7,8 @@
 # DOMAIN-SUFFIX: 660
 # PROCESS-NAME: 2
 # TOTAL: 668
-DOMAIN,github-cloud.s3.amazonaws.com
-DOMAIN,vsmarketplacebadge.apphb.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,21vbc.com
 DOMAIN-SUFFIX,21vbluecloud.com
 DOMAIN-SUFFIX,21vbluecloud.net
