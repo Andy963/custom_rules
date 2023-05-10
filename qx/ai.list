@@ -4,13 +4,13 @@
 
 #DOMAIN-SET,https://github.com/Andy963/custom_rules/qx/blob/main/qx/ai.list,proxy
 
-HOST-SUFFIX,cdn.auth0.com,AI
-HOST-SUFFIX,openai.com,AI
-HOST-SUFFIX,pay.openai.com,AI
-HOST-SUFFIX,chat.openai.com,AI
-HOST-SUFFIX,challenges.cloudflare.com,AI
-HOST-SUFFIX,auth0.openai.com,AI
-HOST-SUFFIX,platform.openai.com,AI
-HOST-SUFFIX,ai.com,AI
-HOST-SUFFIX,invoice.stripe.com,AI
-HOST-SUFFIX,stripe.com,AI
+DOMAIN-SUFFIX,cdn.auth0.com,AI
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,pay.openai.com,AI
+DOMAIN-SUFFIX,chat.openai.com,AI
+DOMAIN-SUFFIX,challenges.cloudflare.com,AI
+DOMAIN-SUFFIX,auth0.openai.com,AI
+DOMAIN-SUFFIX,platform.openai.com,AI
+DOMAIN-SUFFIX,ai.com,AI
+DOMAIN-SUFFIX,invoice.stripe.com,AI
+DOMAIN-SUFFIX,stripe.com,AI
