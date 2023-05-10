@@ -1,6 +1,4 @@
 payload:
-  # > PayPal'
-  # - USER-AGENT,PayPal*'
   - '+.openai.com'
   - '+.pay.openai.com'
   - '+.chat.openai.com'

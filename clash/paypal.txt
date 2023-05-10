@@ -1,6 +1,4 @@
 payload:
-  # > PayPal'
-  # - USER-AGENT,PayPal*'
   - '+.account-paypal.net'
   - '+.account-paypal.org'
   - '+.accountpaypal.com'
