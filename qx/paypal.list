@@ -1,5 +1,5 @@
 # NAME: PayPal
-# REPO: #URL=https://github.com/Andy963/custom_rules/main/paypal.txt
+# REPO: #URL=https://github.com/Andy963/custom_rules/main/qx/paypal.txt
 # UPDATED: 2023-05-10 
 # TOTAL: 246
 HOST-SUFFIX,account-paypal.info,PayPal
