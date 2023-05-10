@@ -1,10 +1,9 @@
 #TITLE=ai'
 #VER=20230509'
 #URL=https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt'
-'
-'
+
 #DOMAIN-SET,https://github.com/Andy963/custom_rules/blob/main/clash/ai.txt,proxy'
-'
+
 payload:'
   # > PayPal'
   # - USER-AGENT,PayPal*'
