@@ -25,7 +25,7 @@ jobs:
           git merge -X theirs ASN.China.list
       - name: Commit changes  
         run: |
-          cd Andy963/custom_rules/qx     
+          cd custom_rules/qx     
           git config --local user.email "action@github.com"  
           git config --local user.name "GitHub Action"  
           git commit -m "Update ASN.China.list from VirgilClyne/GetSomeFries" -a
