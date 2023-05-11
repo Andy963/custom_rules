@@ -44,4 +44,7 @@ https://gh.zhougao.win/https://github.com/Andy963/custom_rules/blob/main/qx/Stre
 https://gh.zhougao.win/https://github.com/Andy963/custom_rules/blob/main/qx/Global.list, tag=Accelerate, force-policy=Accelerate, update-interval=172800, opt-parser=true, enabled=true
 https://gh.zhougao.win/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt, tag=广告终结者, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 
-``
+```
+
+Ref: 
+- [ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)
