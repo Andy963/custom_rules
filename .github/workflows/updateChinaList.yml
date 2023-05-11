@@ -18,18 +18,15 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: VirgilClyne/GetSomeFries
-          ref: main
-      - name: Update ASN.China.list
-        run: |
-          cp VirgilClyne/GetSomeFries/ruleset/ASN.China.list .
-          diff Andy963/custom_rules/qx/ASN.China.list ASN.China.list
-          cat ASN.China.list >> Andy963/custom_rules/qx/ASN.China.list
-      - name: Commit changes
+          ref: main 
+      - name: Merge ASN.China.list updates
         run: |
           cd Andy963/custom_rules/qx
+          git merge -X theirs VirgilClyne/GetSomeFries/ruleset/ASN.China.list
+      - name: Commit changes
+        run: | 
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ASN.China.list
           git commit -m "Update ASN.China.list from VirgilClyne/GetSomeFries" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
