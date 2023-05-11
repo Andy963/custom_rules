@@ -1,0 +1,37 @@
+name: Update ASN.China.list
+
+on:
+  schedule:
+    - cron: 0 0 * * *   # Runs at 00:00 UTC every day
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Andy963/custom_rules
+        uses: actions/checkout@v2
+        with:
+          repository: Andy963/custom_rules
+          ref: main
+      - name: Checkout VirgilClyne/GetSomeFries
+        uses: actions/checkout@v2
+        with:
+          repository: VirgilClyne/GetSomeFries
+          ref: main
+      - name: Update ASN.China.list
+        run: |
+          cp VirgilClyne/GetSomeFries/ruleset/ASN.China.list .
+          diff Andy963/custom_rules/qx/ASN.China.list ASN.China.list
+          cat ASN.China.list >> Andy963/custom_rules/qx/ASN.China.list
+      - name: Commit changes
+        run: |
+          cd Andy963/custom_rules/qx
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ASN.China.list
+          git commit -m "Update ASN.China.list from VirgilClyne/GetSomeFries" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
