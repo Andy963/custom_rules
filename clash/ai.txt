@@ -8,3 +8,4 @@ payload:
   - '+.ai.com'
   - '+.invoice.stripe.com'
   - '+.stripe.com'
+  - '+.makersuit.google.com'
