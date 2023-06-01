@@ -6,6 +6,8 @@ payload:
   - '+.auth0.openai.com'
   - '+.platform.openai.com'
   - '+.ai.com'
+  - '+.identrust.com'
+  - '+.o33249.ingest.sentry.io'
   - '+.invoice.stripe.com'
   - '+.stripe.com'
   - '+.makersuit.google.com'
