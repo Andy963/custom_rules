@@ -11,3 +11,5 @@ payload:
   - '+.invoice.stripe.com'
   - '+.stripe.com'
   - '+.makersuit.google.com'
+  - '+.anthropic.com'
+  - '+.console.anthropic.com'
