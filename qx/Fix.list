@@ -36,3 +36,7 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
+
+#kuake app
+DOMAIN,uc9.ucweb.com
+DOMAIN,ucweb.com

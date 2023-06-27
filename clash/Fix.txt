@@ -1,0 +1,3 @@
+payload:
+  - '+.uc9.ucweb.com'
+  - '+.ucweb.com'
