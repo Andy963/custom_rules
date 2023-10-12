@@ -13,3 +13,4 @@ payload:
   - '+.makersuit.google.com'
   - '+.anthropic.com'
   - '+.console.anthropic.com'
+  - '+.sydney.bing.com'
