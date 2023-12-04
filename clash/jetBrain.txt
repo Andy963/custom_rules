@@ -1,0 +1,5 @@
+payload:
+ - '+.jetbrain.com'
+ - '+.plugins.jetbrain.com'
+ - '+.download-cdn.jetbrains.com'
+ - '+.download.jetbrains.com'
