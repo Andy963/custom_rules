@@ -1,4 +1,4 @@
-payload:
+# Jetbrain
  - '+.jetbrain.com'
  - '+.plugins.jetbrain.com'
  - '+.download-cdn.jetbrains.com'
